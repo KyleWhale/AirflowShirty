@@ -1,0 +1,6 @@
+framework module Bakehouse {
+  umbrella header "Bakehouse-umbrella.h"
+
+  export *
+  module * { export * }
+}

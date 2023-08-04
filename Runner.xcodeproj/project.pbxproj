@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D4D7632A7CF76700EFB9D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */; };
+		01D4D7662A7CF76700EFB9D0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7652A7CF76700EFB9D0 /* SceneDelegate.m */; };
+		01D4D7692A7CF76700EFB9D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7682A7CF76700EFB9D0 /* ViewController.m */; };
+		01D4D76C2A7CF76700EFB9D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D4D76A2A7CF76700EFB9D0 /* Main.storyboard */; };
+		01D4D76E2A7CF76900EFB9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D4D76D2A7CF76900EFB9D0 /* Assets.xcassets */; };
+		01D4D7712A7CF76900EFB9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D4D76F2A7CF76900EFB9D0 /* LaunchScreen.storyboard */; };
+		01D4D7742A7CF76900EFB9D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7732A7CF76900EFB9D0 /* main.m */; };
+		01D4D8382A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7AF2A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.m */; };
+		01D4D8392A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B12A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m */; };
+		01D4D83A2A7CF90600EFB9D0 /* ObsStairliftOffload.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B22A7CF90600EFB9D0 /* ObsStairliftOffload.m */; };
+		01D4D83B2A7CF90600EFB9D0 /* AssmScathDioceseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B32A7CF90600EFB9D0 /* AssmScathDioceseManager.m */; };
+		01D4D83C2A7CF90600EFB9D0 /* MckYessirAboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B42A7CF90600EFB9D0 /* MckYessirAboardModel.m */; };
+		01D4D83D2A7CF90600EFB9D0 /* ObsLacerationTouchyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B52A7CF90600EFB9D0 /* ObsLacerationTouchyManager.m */; };
+		01D4D83E2A7CF90600EFB9D0 /* VrWholenessGunshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7B72A7CF90600EFB9D0 /* VrWholenessGunshot.m */; };
+		01D4D83F2A7CF90600EFB9D0 /* VpSuppressantMoroseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7BA2A7CF90600EFB9D0 /* VpSuppressantMoroseModel.m */; };
+		01D4D8402A7CF90600EFB9D0 /* MckColliderElevensesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7BB2A7CF90600EFB9D0 /* MckColliderElevensesModel.m */; };
+		01D4D8412A7CF90600EFB9D0 /* VpPretenceThesaurusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7BD2A7CF90600EFB9D0 /* VpPretenceThesaurusView.m */; };
+		01D4D8422A7CF90600EFB9D0 /* VrIncubationChairModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7BE2A7CF90600EFB9D0 /* VrIncubationChairModel.m */; };
+		01D4D8432A7CF90600EFB9D0 /* LibyanFormer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C02A7CF90600EFB9D0 /* LibyanFormer.m */; };
+		01D4D8442A7CF90600EFB9D0 /* AssmDubiousHonourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C12A7CF90600EFB9D0 /* AssmDubiousHonourCell.m */; };
+		01D4D8452A7CF90600EFB9D0 /* MothballObtuseGownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C32A7CF90600EFB9D0 /* MothballObtuseGownManager.m */; };
+		01D4D8462A7CF90600EFB9D0 /* BasqSituationTarsalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C62A7CF90600EFB9D0 /* BasqSituationTarsalCell.m */; };
+		01D4D8472A7CF90600EFB9D0 /* AssmYessirBedevilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C72A7CF90600EFB9D0 /* AssmYessirBedevilModel.m */; };
+		01D4D8482A7CF90600EFB9D0 /* FryMycologyPimpleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7C92A7CF90600EFB9D0 /* FryMycologyPimpleManager.m */; };
+		01D4D8492A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7CB2A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m */; };
+		01D4D84A2A7CF90600EFB9D0 /* ObsDefyIntentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7CE2A7CF90600EFB9D0 /* ObsDefyIntentManager.m */; };
+		01D4D84B2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7CF2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m */; };
+		01D4D84C2A7CF90600EFB9D0 /* NlavndHairdresser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7D02A7CF90600EFB9D0 /* NlavndHairdresser.m */; };
+		01D4D84D2A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7D32A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m */; };
+		01D4D84E2A7CF90600EFB9D0 /* AirflowWankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7D52A7CF90600EFB9D0 /* AirflowWankView.m */; };
+		01D4D84F2A7CF90600EFB9D0 /* FrePersistentlyDustyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7D62A7CF90600EFB9D0 /* FrePersistentlyDustyManager.m */; };
+		01D4D8502A7CF90600EFB9D0 /* FreMycologyAbaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7DB2A7CF90600EFB9D0 /* FreMycologyAbaseCell.m */; };
+		01D4D8512A7CF90600EFB9D0 /* TrivialityPlunkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7DC2A7CF90600EFB9D0 /* TrivialityPlunkCell.m */; };
+		01D4D8522A7CF90600EFB9D0 /* LayttUtiliseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7E12A7CF90600EFB9D0 /* LayttUtiliseModel.m */; };
+		01D4D8532A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7E42A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m */; };
+		01D4D8542A7CF90600EFB9D0 /* VpSlatyProactiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7E52A7CF90600EFB9D0 /* VpSlatyProactiveView.m */; };
+		01D4D8552A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7E72A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m */; };
+		01D4D8562A7CF90600EFB9D0 /* VpHideawayNeglect.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7EB2A7CF90600EFB9D0 /* VpHideawayNeglect.m */; };
+		01D4D8572A7CF90600EFB9D0 /* VrPretenceCarrionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7ED2A7CF90600EFB9D0 /* VrPretenceCarrionCell.m */; };
+		01D4D8582A7CF90600EFB9D0 /* LibyanBibliophileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7EE2A7CF90600EFB9D0 /* LibyanBibliophileViewController.m */; };
+		01D4D8592A7CF90600EFB9D0 /* SothastrnHegemonic.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7EF2A7CF90600EFB9D0 /* SothastrnHegemonic.m */; };
+		01D4D85A2A7CF90600EFB9D0 /* SothastrnWankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7F02A7CF90600EFB9D0 /* SothastrnWankCell.m */; };
+		01D4D85B2A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7F12A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m */; };
+		01D4D85C2A7CF90600EFB9D0 /* MckFixSwollenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7F22A7CF90600EFB9D0 /* MckFixSwollenManager.m */; };
+		01D4D85D2A7CF90600EFB9D0 /* VpNuptialsEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7F52A7CF90600EFB9D0 /* VpNuptialsEvaluator.m */; };
+		01D4D85E2A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7F62A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.m */; };
+		01D4D85F2A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7FA2A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.m */; };
+		01D4D8602A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7FB2A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m */; };
+		01D4D8612A7CF90600EFB9D0 /* GophrDeftUnnerveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7FF2A7CF90600EFB9D0 /* GophrDeftUnnerveModel.m */; };
+		01D4D8622A7CF90600EFB9D0 /* AirflowShirtyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8032A7CF90600EFB9D0 /* AirflowShirtyModel.m */; };
+		01D4D8632A7CF90600EFB9D0 /* GophrAsciiTroubledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8052A7CF90600EFB9D0 /* GophrAsciiTroubledView.m */; };
+		01D4D8642A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8062A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.m */; };
+		01D4D8652A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8092A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m */; };
+		01D4D8662A7CF90600EFB9D0 /* NionFormerObsidian.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */; };
+		01D4D8672A7CF90600EFB9D0 /* GophrStouthearted.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D80C2A7CF90600EFB9D0 /* GophrStouthearted.m */; };
+		01D4D8682A7CF90600EFB9D0 /* NionFixUnanimousModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */; };
+		01D4D8692A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D80F2A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m */; };
+		01D4D86A2A7CF90600EFB9D0 /* BrindlSqualorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8122A7CF90600EFB9D0 /* BrindlSqualorView.m */; };
+		01D4D86B2A7CF90600EFB9D0 /* VrDeftFecalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8132A7CF90600EFB9D0 /* VrDeftFecalManager.m */; };
+		01D4D86C2A7CF90600EFB9D0 /* DstrctiblSteamedRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8152A7CF90600EFB9D0 /* DstrctiblSteamedRole.m */; };
+		01D4D86D2A7CF90600EFB9D0 /* BrindlPractisedWankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8162A7CF90600EFB9D0 /* BrindlPractisedWankViewController.m */; };
+		01D4D86E2A7CF90600EFB9D0 /* RadicatSlatyReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8172A7CF90600EFB9D0 /* RadicatSlatyReceipt.m */; };
+		01D4D86F2A7CF90600EFB9D0 /* NlavndMesmericCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D81B2A7CF90600EFB9D0 /* NlavndMesmericCell.m */; };
+		01D4D8702A7CF90600EFB9D0 /* MckAllowanceZon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D81C2A7CF90600EFB9D0 /* MckAllowanceZon.m */; };
+		01D4D8712A7CF90600EFB9D0 /* VrSituationShawlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D81D2A7CF90600EFB9D0 /* VrSituationShawlViewController.m */; };
+		01D4D8722A7CF90600EFB9D0 /* GophrDubious.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8262A7CF90600EFB9D0 /* GophrDubious.m */; };
+		01D4D8732A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8292A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.m */; };
+		01D4D8742A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D82A2A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m */; };
+		01D4D8752A7CF90600EFB9D0 /* SothastrnWaneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D82B2A7CF90600EFB9D0 /* SothastrnWaneManager.m */; };
+		01D4D8762A7CF90600EFB9D0 /* FreWiredQuarterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D82D2A7CF90600EFB9D0 /* FreWiredQuarterCell.m */; };
+		01D4D8772A7CF90600EFB9D0 /* FreDubiousIllnessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D82F2A7CF90600EFB9D0 /* FreDubiousIllnessManager.m */; };
+		01D4D8782A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8302A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m */; };
+		01D4D8792A7CF90600EFB9D0 /* FreAitchChair.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8322A7CF90600EFB9D0 /* FreAitchChair.m */; };
+		01D4D87A2A7CF90600EFB9D0 /* NionStairliftIntentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */; };
+		01D4D87B2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8362A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m */; };
+		01D4D87C2A7CF90600EFB9D0 /* NlavndDeflateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */; };
+		030982825B53CCB8018A4F45 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FFE1F924CB7D52C3EF0E4F /* Pods_Runner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D4D75E2A7CF76700EFB9D0 /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D4D7612A7CF76700EFB9D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01D4D7642A7CF76700EFB9D0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		01D4D7652A7CF76700EFB9D0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		01D4D7672A7CF76700EFB9D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01D4D7682A7CF76700EFB9D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01D4D76B2A7CF76700EFB9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01D4D76D2A7CF76900EFB9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01D4D7702A7CF76900EFB9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01D4D7722A7CF76900EFB9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D4D7732A7CF76900EFB9D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01D4D7AE2A7CF90600EFB9D0 /* GophrAsciiTroubledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrAsciiTroubledView.h; sourceTree = "<group>"; };
+		01D4D7AF2A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrySuspensionCollectionViewCell.m; sourceTree = "<group>"; };
+		01D4D7B02A7CF90600EFB9D0 /* AirflowShirtyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirflowShirtyModel.h; sourceTree = "<group>"; };
+		01D4D7B12A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreSnuffboxMeddlerView.m; sourceTree = "<group>"; };
+		01D4D7B22A7CF90600EFB9D0 /* ObsStairliftOffload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsStairliftOffload.m; sourceTree = "<group>"; };
+		01D4D7B32A7CF90600EFB9D0 /* AssmScathDioceseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssmScathDioceseManager.m; sourceTree = "<group>"; };
+		01D4D7B42A7CF90600EFB9D0 /* MckYessirAboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckYessirAboardModel.m; sourceTree = "<group>"; };
+		01D4D7B52A7CF90600EFB9D0 /* ObsLacerationTouchyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsLacerationTouchyManager.m; sourceTree = "<group>"; };
+		01D4D7B62A7CF90600EFB9D0 /* GophrDeftUnnerveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrDeftUnnerveModel.h; sourceTree = "<group>"; };
+		01D4D7B72A7CF90600EFB9D0 /* VrWholenessGunshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrWholenessGunshot.m; sourceTree = "<group>"; };
+		01D4D7B82A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryGeothermalUnnerveModel.h; sourceTree = "<group>"; };
+		01D4D7B92A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanWilcoFishermanModel.h; sourceTree = "<group>"; };
+		01D4D7BA2A7CF90600EFB9D0 /* VpSuppressantMoroseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpSuppressantMoroseModel.m; sourceTree = "<group>"; };
+		01D4D7BB2A7CF90600EFB9D0 /* MckColliderElevensesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckColliderElevensesModel.m; sourceTree = "<group>"; };
+		01D4D7BC2A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanSnuffboxShawlModel.h; sourceTree = "<group>"; };
+		01D4D7BD2A7CF90600EFB9D0 /* VpPretenceThesaurusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpPretenceThesaurusView.m; sourceTree = "<group>"; };
+		01D4D7BE2A7CF90600EFB9D0 /* VrIncubationChairModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrIncubationChairModel.m; sourceTree = "<group>"; };
+		01D4D7BF2A7CF90600EFB9D0 /* VpNuptialsEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpNuptialsEvaluator.h; sourceTree = "<group>"; };
+		01D4D7C02A7CF90600EFB9D0 /* LibyanFormer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanFormer.m; sourceTree = "<group>"; };
+		01D4D7C12A7CF90600EFB9D0 /* AssmDubiousHonourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssmDubiousHonourCell.m; sourceTree = "<group>"; };
+		01D4D7C22A7CF90600EFB9D0 /* BrindlSqualorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrindlSqualorView.h; sourceTree = "<group>"; };
+		01D4D7C32A7CF90600EFB9D0 /* MothballObtuseGownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MothballObtuseGownManager.m; sourceTree = "<group>"; };
+		01D4D7C42A7CF90600EFB9D0 /* ObsWilcoUnderfedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsWilcoUnderfedView.h; sourceTree = "<group>"; };
+		01D4D7C52A7CF90600EFB9D0 /* NionFixUnanimousModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionFixUnanimousModel.h; sourceTree = "<group>"; };
+		01D4D7C62A7CF90600EFB9D0 /* BasqSituationTarsalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasqSituationTarsalCell.m; sourceTree = "<group>"; };
+		01D4D7C72A7CF90600EFB9D0 /* AssmYessirBedevilModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssmYessirBedevilModel.m; sourceTree = "<group>"; };
+		01D4D7C82A7CF90600EFB9D0 /* GophrStouthearted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrStouthearted.h; sourceTree = "<group>"; };
+		01D4D7C92A7CF90600EFB9D0 /* FryMycologyPimpleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryMycologyPimpleManager.m; sourceTree = "<group>"; };
+		01D4D7CA2A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayttGaietyUnnerveBar.h; sourceTree = "<group>"; };
+		01D4D7CB2A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasqVisuallyEnrollManager.m; sourceTree = "<group>"; };
+		01D4D7CC2A7CF90600EFB9D0 /* NionFormerObsidian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionFormerObsidian.h; sourceTree = "<group>"; };
+		01D4D7CD2A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryHypoxiaOpposedManager.h; sourceTree = "<group>"; };
+		01D4D7CE2A7CF90600EFB9D0 /* ObsDefyIntentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsDefyIntentManager.m; sourceTree = "<group>"; };
+		01D4D7CF2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanFixNeglectManager.m; sourceTree = "<group>"; };
+		01D4D7D02A7CF90600EFB9D0 /* NlavndHairdresser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndHairdresser.m; sourceTree = "<group>"; };
+		01D4D7D12A7CF90600EFB9D0 /* MckAllowanceZon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckAllowanceZon.h; sourceTree = "<group>"; };
+		01D4D7D22A7CF90600EFB9D0 /* VrSituationShawlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrSituationShawlViewController.h; sourceTree = "<group>"; };
+		01D4D7D32A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlondAllowanceVainlyModel.m; sourceTree = "<group>"; };
+		01D4D7D42A7CF90600EFB9D0 /* NlavndMesmericCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndMesmericCell.h; sourceTree = "<group>"; };
+		01D4D7D52A7CF90600EFB9D0 /* AirflowWankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirflowWankView.m; sourceTree = "<group>"; };
+		01D4D7D62A7CF90600EFB9D0 /* FrePersistentlyDustyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrePersistentlyDustyManager.m; sourceTree = "<group>"; };
+		01D4D7D72A7CF90600EFB9D0 /* BrindlPractisedWankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrindlPractisedWankViewController.h; sourceTree = "<group>"; };
+		01D4D7D82A7CF90600EFB9D0 /* RadicatSlatyReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadicatSlatyReceipt.h; sourceTree = "<group>"; };
+		01D4D7D92A7CF90600EFB9D0 /* DstrctiblSteamedRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DstrctiblSteamedRole.h; sourceTree = "<group>"; };
+		01D4D7DA2A7CF90600EFB9D0 /* VrDeftFecalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrDeftFecalManager.h; sourceTree = "<group>"; };
+		01D4D7DB2A7CF90600EFB9D0 /* FreMycologyAbaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreMycologyAbaseCell.m; sourceTree = "<group>"; };
+		01D4D7DC2A7CF90600EFB9D0 /* TrivialityPlunkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivialityPlunkCell.m; sourceTree = "<group>"; };
+		01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndDeflateManager.h; sourceTree = "<group>"; };
+		01D4D7DE2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndPractisedPlunkModel.h; sourceTree = "<group>"; };
+		01D4D7DF2A7CF90600EFB9D0 /* FreAitchChair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreAitchChair.h; sourceTree = "<group>"; };
+		01D4D7E02A7CF90600EFB9D0 /* NionStairliftIntentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionStairliftIntentModel.h; sourceTree = "<group>"; };
+		01D4D7E12A7CF90600EFB9D0 /* LayttUtiliseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayttUtiliseModel.m; sourceTree = "<group>"; };
+		01D4D7E22A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssmAsciiSaintedViewController.h; sourceTree = "<group>"; };
+		01D4D7E32A7CF90600EFB9D0 /* FreDubiousIllnessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreDubiousIllnessManager.h; sourceTree = "<group>"; };
+		01D4D7E42A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrDefyEvaluatorCell.m; sourceTree = "<group>"; };
+		01D4D7E52A7CF90600EFB9D0 /* VpSlatyProactiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpSlatyProactiveView.m; sourceTree = "<group>"; };
+		01D4D7E62A7CF90600EFB9D0 /* FreWiredQuarterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreWiredQuarterCell.h; sourceTree = "<group>"; };
+		01D4D7E72A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrindlDeflateSubtendManager.m; sourceTree = "<group>"; };
+		01D4D7E82A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DstrctiblObtuseZonModel.h; sourceTree = "<group>"; };
+		01D4D7E92A7CF90600EFB9D0 /* GodhadFormerImpactedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodhadFormerImpactedManager.h; sourceTree = "<group>"; };
+		01D4D7EA2A7CF90600EFB9D0 /* SothastrnWaneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SothastrnWaneManager.h; sourceTree = "<group>"; };
+		01D4D7EB2A7CF90600EFB9D0 /* VpHideawayNeglect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpHideawayNeglect.m; sourceTree = "<group>"; };
+		01D4D7EC2A7CF90600EFB9D0 /* GophrDubious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrDubious.h; sourceTree = "<group>"; };
+		01D4D7ED2A7CF90600EFB9D0 /* VrPretenceCarrionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrPretenceCarrionCell.m; sourceTree = "<group>"; };
+		01D4D7EE2A7CF90600EFB9D0 /* LibyanBibliophileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanBibliophileViewController.m; sourceTree = "<group>"; };
+		01D4D7EF2A7CF90600EFB9D0 /* SothastrnHegemonic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SothastrnHegemonic.m; sourceTree = "<group>"; };
+		01D4D7F02A7CF90600EFB9D0 /* SothastrnWankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SothastrnWankCell.m; sourceTree = "<group>"; };
+		01D4D7F12A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrindlHolmiumAbaseCell.m; sourceTree = "<group>"; };
+		01D4D7F22A7CF90600EFB9D0 /* MckFixSwollenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckFixSwollenManager.m; sourceTree = "<group>"; };
+		01D4D7F32A7CF90600EFB9D0 /* LibyanFormer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanFormer.h; sourceTree = "<group>"; };
+		01D4D7F42A7CF90600EFB9D0 /* VrIncubationChairModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrIncubationChairModel.h; sourceTree = "<group>"; };
+		01D4D7F52A7CF90600EFB9D0 /* VpNuptialsEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpNuptialsEvaluator.m; sourceTree = "<group>"; };
+		01D4D7F62A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanSnuffboxShawlModel.m; sourceTree = "<group>"; };
+		01D4D7F72A7CF90600EFB9D0 /* VpPretenceThesaurusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpPretenceThesaurusView.h; sourceTree = "<group>"; };
+		01D4D7F82A7CF90600EFB9D0 /* MckColliderElevensesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckColliderElevensesModel.h; sourceTree = "<group>"; };
+		01D4D7F92A7CF90600EFB9D0 /* VpSuppressantMoroseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpSuppressantMoroseModel.h; sourceTree = "<group>"; };
+		01D4D7FA2A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanWilcoFishermanModel.m; sourceTree = "<group>"; };
+		01D4D7FB2A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryGeothermalUnnerveModel.m; sourceTree = "<group>"; };
+		01D4D7FC2A7CF90600EFB9D0 /* VrWholenessGunshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrWholenessGunshot.h; sourceTree = "<group>"; };
+		01D4D7FD2A7CF90600EFB9D0 /* ObsLacerationTouchyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsLacerationTouchyManager.h; sourceTree = "<group>"; };
+		01D4D7FE2A7CF90600EFB9D0 /* MckYessirAboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckYessirAboardModel.h; sourceTree = "<group>"; };
+		01D4D7FF2A7CF90600EFB9D0 /* GophrDeftUnnerveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrDeftUnnerveModel.m; sourceTree = "<group>"; };
+		01D4D8002A7CF90600EFB9D0 /* AssmScathDioceseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssmScathDioceseManager.h; sourceTree = "<group>"; };
+		01D4D8012A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreSnuffboxMeddlerView.h; sourceTree = "<group>"; };
+		01D4D8022A7CF90600EFB9D0 /* ObsStairliftOffload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsStairliftOffload.h; sourceTree = "<group>"; };
+		01D4D8032A7CF90600EFB9D0 /* AirflowShirtyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirflowShirtyModel.m; sourceTree = "<group>"; };
+		01D4D8042A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrySuspensionCollectionViewCell.h; sourceTree = "<group>"; };
+		01D4D8052A7CF90600EFB9D0 /* GophrAsciiTroubledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrAsciiTroubledView.m; sourceTree = "<group>"; };
+		01D4D8062A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryHypoxiaOpposedManager.m; sourceTree = "<group>"; };
+		01D4D8072A7CF90600EFB9D0 /* FryMycologyPimpleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryMycologyPimpleManager.h; sourceTree = "<group>"; };
+		01D4D8082A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasqVisuallyEnrollManager.h; sourceTree = "<group>"; };
+		01D4D8092A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayttGaietyUnnerveBar.m; sourceTree = "<group>"; };
+		01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionFormerObsidian.m; sourceTree = "<group>"; };
+		01D4D80B2A7CF90600EFB9D0 /* AssmYessirBedevilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssmYessirBedevilModel.h; sourceTree = "<group>"; };
+		01D4D80C2A7CF90600EFB9D0 /* GophrStouthearted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrStouthearted.m; sourceTree = "<group>"; };
+		01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionFixUnanimousModel.m; sourceTree = "<group>"; };
+		01D4D80E2A7CF90600EFB9D0 /* BasqSituationTarsalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasqSituationTarsalCell.h; sourceTree = "<group>"; };
+		01D4D80F2A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsWilcoUnderfedView.m; sourceTree = "<group>"; };
+		01D4D8102A7CF90600EFB9D0 /* MothballObtuseGownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MothballObtuseGownManager.h; sourceTree = "<group>"; };
+		01D4D8112A7CF90600EFB9D0 /* AssmDubiousHonourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssmDubiousHonourCell.h; sourceTree = "<group>"; };
+		01D4D8122A7CF90600EFB9D0 /* BrindlSqualorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrindlSqualorView.m; sourceTree = "<group>"; };
+		01D4D8132A7CF90600EFB9D0 /* VrDeftFecalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrDeftFecalManager.m; sourceTree = "<group>"; };
+		01D4D8142A7CF90600EFB9D0 /* FreMycologyAbaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreMycologyAbaseCell.h; sourceTree = "<group>"; };
+		01D4D8152A7CF90600EFB9D0 /* DstrctiblSteamedRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DstrctiblSteamedRole.m; sourceTree = "<group>"; };
+		01D4D8162A7CF90600EFB9D0 /* BrindlPractisedWankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrindlPractisedWankViewController.m; sourceTree = "<group>"; };
+		01D4D8172A7CF90600EFB9D0 /* RadicatSlatyReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadicatSlatyReceipt.m; sourceTree = "<group>"; };
+		01D4D8182A7CF90600EFB9D0 /* FrePersistentlyDustyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrePersistentlyDustyManager.h; sourceTree = "<group>"; };
+		01D4D8192A7CF90600EFB9D0 /* AirflowWankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirflowWankView.h; sourceTree = "<group>"; };
+		01D4D81A2A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlondAllowanceVainlyModel.h; sourceTree = "<group>"; };
+		01D4D81B2A7CF90600EFB9D0 /* NlavndMesmericCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndMesmericCell.m; sourceTree = "<group>"; };
+		01D4D81C2A7CF90600EFB9D0 /* MckAllowanceZon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckAllowanceZon.m; sourceTree = "<group>"; };
+		01D4D81D2A7CF90600EFB9D0 /* VrSituationShawlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrSituationShawlViewController.m; sourceTree = "<group>"; };
+		01D4D81E2A7CF90600EFB9D0 /* LibyanFixNeglectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanFixNeglectManager.h; sourceTree = "<group>"; };
+		01D4D81F2A7CF90600EFB9D0 /* NlavndHairdresser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndHairdresser.h; sourceTree = "<group>"; };
+		01D4D8202A7CF90600EFB9D0 /* ObsDefyIntentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsDefyIntentManager.h; sourceTree = "<group>"; };
+		01D4D8212A7CF90600EFB9D0 /* MckFixSwollenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckFixSwollenManager.h; sourceTree = "<group>"; };
+		01D4D8222A7CF90600EFB9D0 /* SothastrnWankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SothastrnWankCell.h; sourceTree = "<group>"; };
+		01D4D8232A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrindlHolmiumAbaseCell.h; sourceTree = "<group>"; };
+		01D4D8242A7CF90600EFB9D0 /* LibyanBibliophileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanBibliophileViewController.h; sourceTree = "<group>"; };
+		01D4D8252A7CF90600EFB9D0 /* SothastrnHegemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SothastrnHegemonic.h; sourceTree = "<group>"; };
+		01D4D8262A7CF90600EFB9D0 /* GophrDubious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrDubious.m; sourceTree = "<group>"; };
+		01D4D8272A7CF90600EFB9D0 /* VrPretenceCarrionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrPretenceCarrionCell.h; sourceTree = "<group>"; };
+		01D4D8282A7CF90600EFB9D0 /* VpHideawayNeglect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpHideawayNeglect.h; sourceTree = "<group>"; };
+		01D4D8292A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DstrctiblObtuseZonModel.m; sourceTree = "<group>"; };
+		01D4D82A2A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodhadFormerImpactedManager.m; sourceTree = "<group>"; };
+		01D4D82B2A7CF90600EFB9D0 /* SothastrnWaneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SothastrnWaneManager.m; sourceTree = "<group>"; };
+		01D4D82C2A7CF90600EFB9D0 /* VpSlatyProactiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpSlatyProactiveView.h; sourceTree = "<group>"; };
+		01D4D82D2A7CF90600EFB9D0 /* FreWiredQuarterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreWiredQuarterCell.m; sourceTree = "<group>"; };
+		01D4D82E2A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrindlDeflateSubtendManager.h; sourceTree = "<group>"; };
+		01D4D82F2A7CF90600EFB9D0 /* FreDubiousIllnessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreDubiousIllnessManager.m; sourceTree = "<group>"; };
+		01D4D8302A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssmAsciiSaintedViewController.m; sourceTree = "<group>"; };
+		01D4D8312A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrDefyEvaluatorCell.h; sourceTree = "<group>"; };
+		01D4D8322A7CF90600EFB9D0 /* FreAitchChair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreAitchChair.m; sourceTree = "<group>"; };
+		01D4D8332A7CF90600EFB9D0 /* LayttUtiliseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayttUtiliseModel.h; sourceTree = "<group>"; };
+		01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionStairliftIntentModel.m; sourceTree = "<group>"; };
+		01D4D8352A7CF90600EFB9D0 /* TrivialityPlunkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivialityPlunkCell.h; sourceTree = "<group>"; };
+		01D4D8362A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndPractisedPlunkModel.m; sourceTree = "<group>"; };
+		01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndDeflateManager.m; sourceTree = "<group>"; };
+		01D4D87D2A7CF90E00EFB9D0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5A213C74BBC0357EFEF70522 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		B9FFE1F924CB7D52C3EF0E4F /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D339902D019C85CA152B357F /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D4D75B2A7CF76700EFB9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030982825B53CCB8018A4F45 /* Pods_Runner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D4D7552A7CF76700EFB9D0 = {
+			isa = PBXGroup;
+			children = (
+				01D4D7602A7CF76700EFB9D0 /* Runner */,
+				01D4D75F2A7CF76700EFB9D0 /* Products */,
+				579341F2A45718E5F73F94A6 /* Pods */,
+				BF8B20901437004672E07015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01D4D75F2A7CF76700EFB9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D4D75E2A7CF76700EFB9D0 /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D4D7602A7CF76700EFB9D0 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				01D4D7AD2A7CF90600EFB9D0 /* Classes */,
+				01D4D87D2A7CF90E00EFB9D0 /* PrefixHeader.pch */,
+				01D4D7612A7CF76700EFB9D0 /* AppDelegate.h */,
+				01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */,
+				01D4D7642A7CF76700EFB9D0 /* SceneDelegate.h */,
+				01D4D7652A7CF76700EFB9D0 /* SceneDelegate.m */,
+				01D4D7672A7CF76700EFB9D0 /* ViewController.h */,
+				01D4D7682A7CF76700EFB9D0 /* ViewController.m */,
+				01D4D76A2A7CF76700EFB9D0 /* Main.storyboard */,
+				01D4D76D2A7CF76900EFB9D0 /* Assets.xcassets */,
+				01D4D76F2A7CF76900EFB9D0 /* LaunchScreen.storyboard */,
+				01D4D7722A7CF76900EFB9D0 /* Info.plist */,
+				01D4D7732A7CF76900EFB9D0 /* main.m */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		01D4D7AD2A7CF90600EFB9D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01D4D7B02A7CF90600EFB9D0 /* AirflowShirtyModel.h */,
+				01D4D8032A7CF90600EFB9D0 /* AirflowShirtyModel.m */,
+				01D4D8192A7CF90600EFB9D0 /* AirflowWankView.h */,
+				01D4D7D52A7CF90600EFB9D0 /* AirflowWankView.m */,
+				01D4D7E22A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.h */,
+				01D4D8302A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m */,
+				01D4D8112A7CF90600EFB9D0 /* AssmDubiousHonourCell.h */,
+				01D4D7C12A7CF90600EFB9D0 /* AssmDubiousHonourCell.m */,
+				01D4D8002A7CF90600EFB9D0 /* AssmScathDioceseManager.h */,
+				01D4D7B32A7CF90600EFB9D0 /* AssmScathDioceseManager.m */,
+				01D4D80B2A7CF90600EFB9D0 /* AssmYessirBedevilModel.h */,
+				01D4D7C72A7CF90600EFB9D0 /* AssmYessirBedevilModel.m */,
+				01D4D80E2A7CF90600EFB9D0 /* BasqSituationTarsalCell.h */,
+				01D4D7C62A7CF90600EFB9D0 /* BasqSituationTarsalCell.m */,
+				01D4D8082A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.h */,
+				01D4D7CB2A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m */,
+				01D4D81A2A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.h */,
+				01D4D7D32A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m */,
+				01D4D82E2A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.h */,
+				01D4D7E72A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m */,
+				01D4D8232A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.h */,
+				01D4D7F12A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m */,
+				01D4D7D72A7CF90600EFB9D0 /* BrindlPractisedWankViewController.h */,
+				01D4D8162A7CF90600EFB9D0 /* BrindlPractisedWankViewController.m */,
+				01D4D7C22A7CF90600EFB9D0 /* BrindlSqualorView.h */,
+				01D4D8122A7CF90600EFB9D0 /* BrindlSqualorView.m */,
+				01D4D7E82A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.h */,
+				01D4D8292A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.m */,
+				01D4D7D92A7CF90600EFB9D0 /* DstrctiblSteamedRole.h */,
+				01D4D8152A7CF90600EFB9D0 /* DstrctiblSteamedRole.m */,
+				01D4D7DF2A7CF90600EFB9D0 /* FreAitchChair.h */,
+				01D4D8322A7CF90600EFB9D0 /* FreAitchChair.m */,
+				01D4D7E32A7CF90600EFB9D0 /* FreDubiousIllnessManager.h */,
+				01D4D82F2A7CF90600EFB9D0 /* FreDubiousIllnessManager.m */,
+				01D4D8142A7CF90600EFB9D0 /* FreMycologyAbaseCell.h */,
+				01D4D7DB2A7CF90600EFB9D0 /* FreMycologyAbaseCell.m */,
+				01D4D8182A7CF90600EFB9D0 /* FrePersistentlyDustyManager.h */,
+				01D4D7D62A7CF90600EFB9D0 /* FrePersistentlyDustyManager.m */,
+				01D4D8012A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.h */,
+				01D4D7B12A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m */,
+				01D4D7E62A7CF90600EFB9D0 /* FreWiredQuarterCell.h */,
+				01D4D82D2A7CF90600EFB9D0 /* FreWiredQuarterCell.m */,
+				01D4D7B82A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.h */,
+				01D4D7FB2A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m */,
+				01D4D7CD2A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.h */,
+				01D4D8062A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.m */,
+				01D4D8072A7CF90600EFB9D0 /* FryMycologyPimpleManager.h */,
+				01D4D7C92A7CF90600EFB9D0 /* FryMycologyPimpleManager.m */,
+				01D4D8042A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.h */,
+				01D4D7AF2A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.m */,
+				01D4D7E92A7CF90600EFB9D0 /* GodhadFormerImpactedManager.h */,
+				01D4D82A2A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m */,
+				01D4D7AE2A7CF90600EFB9D0 /* GophrAsciiTroubledView.h */,
+				01D4D8052A7CF90600EFB9D0 /* GophrAsciiTroubledView.m */,
+				01D4D7B62A7CF90600EFB9D0 /* GophrDeftUnnerveModel.h */,
+				01D4D7FF2A7CF90600EFB9D0 /* GophrDeftUnnerveModel.m */,
+				01D4D8312A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.h */,
+				01D4D7E42A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m */,
+				01D4D7EC2A7CF90600EFB9D0 /* GophrDubious.h */,
+				01D4D8262A7CF90600EFB9D0 /* GophrDubious.m */,
+				01D4D7C82A7CF90600EFB9D0 /* GophrStouthearted.h */,
+				01D4D80C2A7CF90600EFB9D0 /* GophrStouthearted.m */,
+				01D4D7CA2A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.h */,
+				01D4D8092A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m */,
+				01D4D8332A7CF90600EFB9D0 /* LayttUtiliseModel.h */,
+				01D4D7E12A7CF90600EFB9D0 /* LayttUtiliseModel.m */,
+				01D4D8242A7CF90600EFB9D0 /* LibyanBibliophileViewController.h */,
+				01D4D7EE2A7CF90600EFB9D0 /* LibyanBibliophileViewController.m */,
+				01D4D81E2A7CF90600EFB9D0 /* LibyanFixNeglectManager.h */,
+				01D4D7CF2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m */,
+				01D4D7F32A7CF90600EFB9D0 /* LibyanFormer.h */,
+				01D4D7C02A7CF90600EFB9D0 /* LibyanFormer.m */,
+				01D4D7BC2A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.h */,
+				01D4D7F62A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.m */,
+				01D4D7B92A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.h */,
+				01D4D7FA2A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.m */,
+				01D4D7D12A7CF90600EFB9D0 /* MckAllowanceZon.h */,
+				01D4D81C2A7CF90600EFB9D0 /* MckAllowanceZon.m */,
+				01D4D7F82A7CF90600EFB9D0 /* MckColliderElevensesModel.h */,
+				01D4D7BB2A7CF90600EFB9D0 /* MckColliderElevensesModel.m */,
+				01D4D8212A7CF90600EFB9D0 /* MckFixSwollenManager.h */,
+				01D4D7F22A7CF90600EFB9D0 /* MckFixSwollenManager.m */,
+				01D4D7FE2A7CF90600EFB9D0 /* MckYessirAboardModel.h */,
+				01D4D7B42A7CF90600EFB9D0 /* MckYessirAboardModel.m */,
+				01D4D8102A7CF90600EFB9D0 /* MothballObtuseGownManager.h */,
+				01D4D7C32A7CF90600EFB9D0 /* MothballObtuseGownManager.m */,
+				01D4D7C52A7CF90600EFB9D0 /* NionFixUnanimousModel.h */,
+				01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */,
+				01D4D7CC2A7CF90600EFB9D0 /* NionFormerObsidian.h */,
+				01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */,
+				01D4D7E02A7CF90600EFB9D0 /* NionStairliftIntentModel.h */,
+				01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */,
+				01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */,
+				01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */,
+				01D4D81F2A7CF90600EFB9D0 /* NlavndHairdresser.h */,
+				01D4D7D02A7CF90600EFB9D0 /* NlavndHairdresser.m */,
+				01D4D7D42A7CF90600EFB9D0 /* NlavndMesmericCell.h */,
+				01D4D81B2A7CF90600EFB9D0 /* NlavndMesmericCell.m */,
+				01D4D7DE2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.h */,
+				01D4D8362A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m */,
+				01D4D8202A7CF90600EFB9D0 /* ObsDefyIntentManager.h */,
+				01D4D7CE2A7CF90600EFB9D0 /* ObsDefyIntentManager.m */,
+				01D4D7FD2A7CF90600EFB9D0 /* ObsLacerationTouchyManager.h */,
+				01D4D7B52A7CF90600EFB9D0 /* ObsLacerationTouchyManager.m */,
+				01D4D8022A7CF90600EFB9D0 /* ObsStairliftOffload.h */,
+				01D4D7B22A7CF90600EFB9D0 /* ObsStairliftOffload.m */,
+				01D4D7C42A7CF90600EFB9D0 /* ObsWilcoUnderfedView.h */,
+				01D4D80F2A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m */,
+				01D4D7D82A7CF90600EFB9D0 /* RadicatSlatyReceipt.h */,
+				01D4D8172A7CF90600EFB9D0 /* RadicatSlatyReceipt.m */,
+				01D4D8252A7CF90600EFB9D0 /* SothastrnHegemonic.h */,
+				01D4D7EF2A7CF90600EFB9D0 /* SothastrnHegemonic.m */,
+				01D4D7EA2A7CF90600EFB9D0 /* SothastrnWaneManager.h */,
+				01D4D82B2A7CF90600EFB9D0 /* SothastrnWaneManager.m */,
+				01D4D8222A7CF90600EFB9D0 /* SothastrnWankCell.h */,
+				01D4D7F02A7CF90600EFB9D0 /* SothastrnWankCell.m */,
+				01D4D8352A7CF90600EFB9D0 /* TrivialityPlunkCell.h */,
+				01D4D7DC2A7CF90600EFB9D0 /* TrivialityPlunkCell.m */,
+				01D4D8282A7CF90600EFB9D0 /* VpHideawayNeglect.h */,
+				01D4D7EB2A7CF90600EFB9D0 /* VpHideawayNeglect.m */,
+				01D4D7BF2A7CF90600EFB9D0 /* VpNuptialsEvaluator.h */,
+				01D4D7F52A7CF90600EFB9D0 /* VpNuptialsEvaluator.m */,
+				01D4D7F72A7CF90600EFB9D0 /* VpPretenceThesaurusView.h */,
+				01D4D7BD2A7CF90600EFB9D0 /* VpPretenceThesaurusView.m */,
+				01D4D82C2A7CF90600EFB9D0 /* VpSlatyProactiveView.h */,
+				01D4D7E52A7CF90600EFB9D0 /* VpSlatyProactiveView.m */,
+				01D4D7F92A7CF90600EFB9D0 /* VpSuppressantMoroseModel.h */,
+				01D4D7BA2A7CF90600EFB9D0 /* VpSuppressantMoroseModel.m */,
+				01D4D7DA2A7CF90600EFB9D0 /* VrDeftFecalManager.h */,
+				01D4D8132A7CF90600EFB9D0 /* VrDeftFecalManager.m */,
+				01D4D7F42A7CF90600EFB9D0 /* VrIncubationChairModel.h */,
+				01D4D7BE2A7CF90600EFB9D0 /* VrIncubationChairModel.m */,
+				01D4D8272A7CF90600EFB9D0 /* VrPretenceCarrionCell.h */,
+				01D4D7ED2A7CF90600EFB9D0 /* VrPretenceCarrionCell.m */,
+				01D4D7D22A7CF90600EFB9D0 /* VrSituationShawlViewController.h */,
+				01D4D81D2A7CF90600EFB9D0 /* VrSituationShawlViewController.m */,
+				01D4D7FC2A7CF90600EFB9D0 /* VrWholenessGunshot.h */,
+				01D4D7B72A7CF90600EFB9D0 /* VrWholenessGunshot.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		579341F2A45718E5F73F94A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D339902D019C85CA152B357F /* Pods-Runner.debug.xcconfig */,
+				5A213C74BBC0357EFEF70522 /* Pods-Runner.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF8B20901437004672E07015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFE1F924CB7D52C3EF0E4F /* Pods_Runner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D4D75D2A7CF76700EFB9D0 /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D4D7772A7CF76900EFB9D0 /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				D4D8E3687B34105C7AE1FFCE /* [CP] Check Pods Manifest.lock */,
+				01D4D75A2A7CF76700EFB9D0 /* Sources */,
+				01D4D75B2A7CF76700EFB9D0 /* Frameworks */,
+				01D4D75C2A7CF76700EFB9D0 /* Resources */,
+				A99DEBFBAB361F2DBF7FB1BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 01D4D75E2A7CF76700EFB9D0 /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D4D7562A7CF76700EFB9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01D4D75D2A7CF76700EFB9D0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 01D4D7592A7CF76700EFB9D0 /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01D4D7552A7CF76700EFB9D0;
+			productRefGroup = 01D4D75F2A7CF76700EFB9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D4D75D2A7CF76700EFB9D0 /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D4D75C2A7CF76700EFB9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D4D7712A7CF76900EFB9D0 /* LaunchScreen.storyboard in Resources */,
+				01D4D76E2A7CF76900EFB9D0 /* Assets.xcassets in Resources */,
+				01D4D76C2A7CF76700EFB9D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A99DEBFBAB361F2DBF7FB1BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D8E3687B34105C7AE1FFCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D4D75A2A7CF76700EFB9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D4D86C2A7CF90600EFB9D0 /* DstrctiblSteamedRole.m in Sources */,
+				01D4D8402A7CF90600EFB9D0 /* MckColliderElevensesModel.m in Sources */,
+				01D4D85E2A7CF90600EFB9D0 /* LibyanSnuffboxShawlModel.m in Sources */,
+				01D4D84A2A7CF90600EFB9D0 /* ObsDefyIntentManager.m in Sources */,
+				01D4D8712A7CF90600EFB9D0 /* VrSituationShawlViewController.m in Sources */,
+				01D4D84E2A7CF90600EFB9D0 /* AirflowWankView.m in Sources */,
+				01D4D8512A7CF90600EFB9D0 /* TrivialityPlunkCell.m in Sources */,
+				01D4D7692A7CF76700EFB9D0 /* ViewController.m in Sources */,
+				01D4D8702A7CF90600EFB9D0 /* MckAllowanceZon.m in Sources */,
+				01D4D85D2A7CF90600EFB9D0 /* VpNuptialsEvaluator.m in Sources */,
+				01D4D86D2A7CF90600EFB9D0 /* BrindlPractisedWankViewController.m in Sources */,
+				01D4D8502A7CF90600EFB9D0 /* FreMycologyAbaseCell.m in Sources */,
+				01D4D8572A7CF90600EFB9D0 /* VrPretenceCarrionCell.m in Sources */,
+				01D4D8792A7CF90600EFB9D0 /* FreAitchChair.m in Sources */,
+				01D4D7632A7CF76700EFB9D0 /* AppDelegate.m in Sources */,
+				01D4D8432A7CF90600EFB9D0 /* LibyanFormer.m in Sources */,
+				01D4D86E2A7CF90600EFB9D0 /* RadicatSlatyReceipt.m in Sources */,
+				01D4D8662A7CF90600EFB9D0 /* NionFormerObsidian.m in Sources */,
+				01D4D8552A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m in Sources */,
+				01D4D8772A7CF90600EFB9D0 /* FreDubiousIllnessManager.m in Sources */,
+				01D4D85C2A7CF90600EFB9D0 /* MckFixSwollenManager.m in Sources */,
+				01D4D85F2A7CF90600EFB9D0 /* LibyanWilcoFishermanModel.m in Sources */,
+				01D4D83B2A7CF90600EFB9D0 /* AssmScathDioceseManager.m in Sources */,
+				01D4D8462A7CF90600EFB9D0 /* BasqSituationTarsalCell.m in Sources */,
+				01D4D8762A7CF90600EFB9D0 /* FreWiredQuarterCell.m in Sources */,
+				01D4D8382A7CF90600EFB9D0 /* FrySuspensionCollectionViewCell.m in Sources */,
+				01D4D83E2A7CF90600EFB9D0 /* VrWholenessGunshot.m in Sources */,
+				01D4D86A2A7CF90600EFB9D0 /* BrindlSqualorView.m in Sources */,
+				01D4D83F2A7CF90600EFB9D0 /* VpSuppressantMoroseModel.m in Sources */,
+				01D4D8412A7CF90600EFB9D0 /* VpPretenceThesaurusView.m in Sources */,
+				01D4D85A2A7CF90600EFB9D0 /* SothastrnWankCell.m in Sources */,
+				01D4D8742A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m in Sources */,
+				01D4D8722A7CF90600EFB9D0 /* GophrDubious.m in Sources */,
+				01D4D8532A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m in Sources */,
+				01D4D8752A7CF90600EFB9D0 /* SothastrnWaneManager.m in Sources */,
+				01D4D83C2A7CF90600EFB9D0 /* MckYessirAboardModel.m in Sources */,
+				01D4D8782A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m in Sources */,
+				01D4D8492A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m in Sources */,
+				01D4D8442A7CF90600EFB9D0 /* AssmDubiousHonourCell.m in Sources */,
+				01D4D8642A7CF90600EFB9D0 /* FryHypoxiaOpposedManager.m in Sources */,
+				01D4D8692A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m in Sources */,
+				01D4D84F2A7CF90600EFB9D0 /* FrePersistentlyDustyManager.m in Sources */,
+				01D4D8652A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m in Sources */,
+				01D4D87B2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m in Sources */,
+				01D4D8522A7CF90600EFB9D0 /* LayttUtiliseModel.m in Sources */,
+				01D4D8602A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m in Sources */,
+				01D4D8392A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m in Sources */,
+				01D4D8562A7CF90600EFB9D0 /* VpHideawayNeglect.m in Sources */,
+				01D4D84D2A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m in Sources */,
+				01D4D8672A7CF90600EFB9D0 /* GophrStouthearted.m in Sources */,
+				01D4D84B2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m in Sources */,
+				01D4D87C2A7CF90600EFB9D0 /* NlavndDeflateManager.m in Sources */,
+				01D4D8422A7CF90600EFB9D0 /* VrIncubationChairModel.m in Sources */,
+				01D4D87A2A7CF90600EFB9D0 /* NionStairliftIntentModel.m in Sources */,
+				01D4D8472A7CF90600EFB9D0 /* AssmYessirBedevilModel.m in Sources */,
+				01D4D85B2A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m in Sources */,
+				01D4D7742A7CF76900EFB9D0 /* main.m in Sources */,
+				01D4D8682A7CF90600EFB9D0 /* NionFixUnanimousModel.m in Sources */,
+				01D4D8582A7CF90600EFB9D0 /* LibyanBibliophileViewController.m in Sources */,
+				01D4D8542A7CF90600EFB9D0 /* VpSlatyProactiveView.m in Sources */,
+				01D4D84C2A7CF90600EFB9D0 /* NlavndHairdresser.m in Sources */,
+				01D4D8482A7CF90600EFB9D0 /* FryMycologyPimpleManager.m in Sources */,
+				01D4D8632A7CF90600EFB9D0 /* GophrAsciiTroubledView.m in Sources */,
+				01D4D86B2A7CF90600EFB9D0 /* VrDeftFecalManager.m in Sources */,
+				01D4D83A2A7CF90600EFB9D0 /* ObsStairliftOffload.m in Sources */,
+				01D4D8622A7CF90600EFB9D0 /* AirflowShirtyModel.m in Sources */,
+				01D4D8732A7CF90600EFB9D0 /* DstrctiblObtuseZonModel.m in Sources */,
+				01D4D8612A7CF90600EFB9D0 /* GophrDeftUnnerveModel.m in Sources */,
+				01D4D8592A7CF90600EFB9D0 /* SothastrnHegemonic.m in Sources */,
+				01D4D8452A7CF90600EFB9D0 /* MothballObtuseGownManager.m in Sources */,
+				01D4D83D2A7CF90600EFB9D0 /* ObsLacerationTouchyManager.m in Sources */,
+				01D4D7662A7CF76700EFB9D0 /* SceneDelegate.m in Sources */,
+				01D4D86F2A7CF90600EFB9D0 /* NlavndMesmericCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01D4D76A2A7CF76700EFB9D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D4D76B2A7CF76700EFB9D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01D4D76F2A7CF76900EFB9D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D4D7702A7CF76900EFB9D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D4D7752A7CF76900EFB9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01D4D7762A7CF76900EFB9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D4D7782A7CF76900EFB9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D339902D019C85CA152B357F /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D4D7792A7CF76900EFB9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A213C74BBC0357EFEF70522 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D4D7592A7CF76700EFB9D0 /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D4D7752A7CF76900EFB9D0 /* Debug */,
+				01D4D7762A7CF76900EFB9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D4D7772A7CF76900EFB9D0 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D4D7782A7CF76900EFB9D0 /* Debug */,
+				01D4D7792A7CF76900EFB9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D4D7562A7CF76700EFB9D0 /* Project object */;
+}

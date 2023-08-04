@@ -1,0 +1,6 @@
+framework module INTBanner {
+  umbrella header "INTBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
