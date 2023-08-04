@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AirflowShirty"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "AirflowShirty Module"
 
   # This description is used to generate tags and improve search results.
@@ -143,8 +143,6 @@ Pod::Spec.new do |spec|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
   }
 
-  spec.dependency 'LayttZonked'
-  spec.dependency 'LibyanEngaged'
   spec.dependency 'Bakehouse'
   spec.dependency 'Masonry'
   spec.dependency 'MJRefresh'

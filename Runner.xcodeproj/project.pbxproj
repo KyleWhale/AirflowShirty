@@ -80,7 +80,6 @@
 		01D4D8772A7CF90600EFB9D0 /* FreDubiousIllnessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D82F2A7CF90600EFB9D0 /* FreDubiousIllnessManager.m */; };
 		01D4D8782A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8302A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m */; };
 		01D4D8792A7CF90600EFB9D0 /* FreAitchChair.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8322A7CF90600EFB9D0 /* FreAitchChair.m */; };
-		01D4D87A2A7CF90600EFB9D0 /* NionStairliftIntentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */; };
 		01D4D87B2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8362A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m */; };
 		01D4D87C2A7CF90600EFB9D0 /* NlavndDeflateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */; };
 		030982825B53CCB8018A4F45 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FFE1F924CB7D52C3EF0E4F /* Pods_Runner.framework */; };
@@ -149,7 +148,6 @@
 		01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndDeflateManager.h; sourceTree = "<group>"; };
 		01D4D7DE2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndPractisedPlunkModel.h; sourceTree = "<group>"; };
 		01D4D7DF2A7CF90600EFB9D0 /* FreAitchChair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreAitchChair.h; sourceTree = "<group>"; };
-		01D4D7E02A7CF90600EFB9D0 /* NionStairliftIntentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionStairliftIntentModel.h; sourceTree = "<group>"; };
 		01D4D7E12A7CF90600EFB9D0 /* LayttUtiliseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayttUtiliseModel.m; sourceTree = "<group>"; };
 		01D4D7E22A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssmAsciiSaintedViewController.h; sourceTree = "<group>"; };
 		01D4D7E32A7CF90600EFB9D0 /* FreDubiousIllnessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreDubiousIllnessManager.h; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 		01D4D8312A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrDefyEvaluatorCell.h; sourceTree = "<group>"; };
 		01D4D8322A7CF90600EFB9D0 /* FreAitchChair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreAitchChair.m; sourceTree = "<group>"; };
 		01D4D8332A7CF90600EFB9D0 /* LayttUtiliseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayttUtiliseModel.h; sourceTree = "<group>"; };
-		01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionStairliftIntentModel.m; sourceTree = "<group>"; };
 		01D4D8352A7CF90600EFB9D0 /* TrivialityPlunkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivialityPlunkCell.h; sourceTree = "<group>"; };
 		01D4D8362A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndPractisedPlunkModel.m; sourceTree = "<group>"; };
 		01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndDeflateManager.m; sourceTree = "<group>"; };
@@ -386,8 +383,6 @@
 				01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */,
 				01D4D7CC2A7CF90600EFB9D0 /* NionFormerObsidian.h */,
 				01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */,
-				01D4D7E02A7CF90600EFB9D0 /* NionStairliftIntentModel.h */,
-				01D4D8342A7CF90600EFB9D0 /* NionStairliftIntentModel.m */,
 				01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */,
 				01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */,
 				01D4D81F2A7CF90600EFB9D0 /* NlavndHairdresser.h */,
@@ -444,7 +439,6 @@
 				D339902D019C85CA152B357F /* Pods-Runner.debug.xcconfig */,
 				5A213C74BBC0357EFEF70522 /* Pods-Runner.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -623,7 +617,6 @@
 				01D4D84B2A7CF90600EFB9D0 /* LibyanFixNeglectManager.m in Sources */,
 				01D4D87C2A7CF90600EFB9D0 /* NlavndDeflateManager.m in Sources */,
 				01D4D8422A7CF90600EFB9D0 /* VrIncubationChairModel.m in Sources */,
-				01D4D87A2A7CF90600EFB9D0 /* NionStairliftIntentModel.m in Sources */,
 				01D4D8472A7CF90600EFB9D0 /* AssmYessirBedevilModel.m in Sources */,
 				01D4D85B2A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.m in Sources */,
 				01D4D7742A7CF76900EFB9D0 /* main.m in Sources */,
@@ -793,8 +786,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -822,8 +816,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
