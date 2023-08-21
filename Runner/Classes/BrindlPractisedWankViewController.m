@@ -205,7 +205,10 @@
         zoomBckwrd = wareRutn.row;
     }
 
-    BlondAllowanceVainlyModel *tinyChv = self.lphExhaustIdea[zoomBckwrd];
+    BlondAllowanceVainlyModel *tinyChv = nil;
+    if ([self.lphExhaustIdea count] > zoomBckwrd) {
+        tinyChv = self.lphExhaustIdea[zoomBckwrd];
+    }
     VrPretenceCarrionCell *lgnmntName = [talkMuntn dequeueReusableCellWithReuseIdentifier:NSStringFromClass([VrPretenceCarrionCell class]) forIndexPath:wareRutn];
     [lgnmntName prprtSunniOdometer:tinyChv];
     return lgnmntName;

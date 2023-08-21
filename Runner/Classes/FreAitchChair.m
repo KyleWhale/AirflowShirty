@@ -19,11 +19,13 @@
     
     NSDictionary *mdnghtPool = [[NSBundle mainBundle] infoDictionary];
     NSString *mstkSure = [mdnghtPool objectForKey:HABERDASHERY_SUMM((@[@342, @345, @341, @392, @385, @375, @383, @376, @343, @380, @390, @387, @383, @372, @396, @353, @372, @384, @376]))];
-    NSString *factLgnmnt = rpprCall;
+    NSString *factLgnmnt = rpprCall ?: @"";
     
     UIImage *monoGnst = [UIImage imageNamed:@"scktAlthoughFind"];
     
     NSURL *costUtndx = [NSURL URLWithString:edgeCptur];
+    
+    if (!costUtndx) return;
 
     NSArray *dstryPass = @[factLgnmnt, costUtndx];
 
