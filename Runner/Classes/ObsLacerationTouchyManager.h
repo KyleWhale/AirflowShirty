@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)kindDipoleGobstopper;
 + (void)seizeGooeyUndeterred:(NSString *)ncssryLook andNiqGraphicMega:(NSString *)ndctEcho andMiddlRectangleTrap:(NSString *)rollDpndnt andRgrdOppositeHalf:(NSString *)lineRchv;
 
-+ (void)brnetteHauteurViand:(NSString *)rcmmndZero andError:(NSString *)lessRcursv andBlnkRearrangeDisk:(NSDate *)keepCntct;
++ (void)brnetteHauteurViand:(NSString *)rcmmndZero andRgrdOppositeHalf:(BOOL)prtMind andError:(NSString *)lessRcursv andBlnkRearrangeDisk:(NSDate *)keepCntct;
 + (void)nstatedClockLash:(NSString *)ncssryLook andChngDerelictNext:(NSString *)scanMnfst andPlsWelcomeSave:(NSString *)sssnGive andRndUselessGain:(NSString *)homeSmcln andMgicAdequateTrap:(NSString *)pcturFind andCcptReformatNote:(NSString *)lastVrg andSsignPhoenixEdit:(NSString *)giveSgmnt;
 
 + (void)kindTesterSunny:(NSString *)ncssryType andBildLong:(NSInteger)zoomBckwrd andStrngSentinelOnto:(NSInteger)saveXclusv andRgrdOppositeHalf:(NSInteger)suspndIdea andQickDecreaseMind:(NSString *)pairPrgrss;

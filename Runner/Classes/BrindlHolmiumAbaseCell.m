@@ -138,15 +138,15 @@
 
 - (CGFloat)researchDoorCompass {
     if ( self.cstmIncreaseSafeArray.count > 0 ) {
-        CGFloat height = CGRectGetMaxY(self.syntxCompanyWordBtn.frame) + 10;
+        CGFloat cncptWith = CGRectGetMaxY(self.syntxCompanyWordBtn.frame) + 10;
         if ( self.stmpCaptureRead == NO ) {
-            if ( height > 10*3 + 28*2 ) {
-                height = 10*3 + 28*2;
+            if ( cncptWith > 10*3 + 28*2 ) {
+                cncptWith = 10*3 + 28*2;
             }
         } else {
             
         }
-        return height;
+        return cncptWith;
     }
     return 1;
 }

@@ -7,6 +7,8 @@
 
 #import "VrSituationShawlViewController.h"
 #import "FreAitchChair.h"
+#import "BlondWorkmanshipCell.h"
+#import "VpObtuseDampnessView.h"
 
 @interface VrSituationShawlViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, issGraphicUnitDelegate,rnmProgramCoreDelegate>
 
@@ -24,10 +26,8 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(prprtSunnyUndeterred:) name:@"tdyRectangleWaitNotification" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(schlhseLastEnliven) name:@"picAutomaticGiveNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(bllseyeHauteurPrior) name:@"dilgTornadoVeryNotification" object:nil];
     __weak typeof(self) spllAutoindexStep = self;
-    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"clnPurchaseSignNotification" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
-        [spllAutoindexStep bllseyeHauteurPrior];
-    }];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(swipeAmoebaPalatalData) name:@"rstHistoryThenNotification" object:nil];
     [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"littlResolveUnitNotification" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
         [spllAutoindexStep.qickRestoreAwayView swankySansConnection];
@@ -59,10 +59,6 @@
     [super viewDidAppear:rbuldFind];
     if ([AirflowObtuseRoly waftOverboardWelter].smthExpressMeetBlock() && ![[NSUserDefaults standardUserDefaults] boolForKey:@"plinStatementPlus"]) {
         [self schlhseLastEnliven];
-    }
-    NSInteger backLthugh = [[NSUserDefaults standardUserDefaults] integerForKey:@"thinkArgumentEven"];
-    if (backLthugh == 1 && [AirflowObtuseRoly waftOverboardWelter].ftrResolveSafeBlock()) {
-        [self bllseyeHauteurPrior];
     }
 }
 
@@ -146,8 +142,8 @@
 
 - (void)waftEnlargeInfect {
     NSString *mstkSure = [[[NSBundle mainBundle] infoDictionary] objectForKey:HABERDASHERY_SUMM((@[@342, @345, @341, @392, @385, @375, @383, @376, @343, @380, @390, @387, @383, @372, @396, @353, @372, @384, @376]))];
-    NSString *factLgnmnt = self.phrsExcludeNearModel.snuffbox ? :mstkSure;
-    [FreAitchChair waftEnlargeInfect:factLgnmnt andEdgeCptur:self.phrsExcludeNearModel.shawlik andVlMode:self.shildExpansionSend.insrRewriteFactBtn.frame andRdrwProvideCash:self.view andMcrAdequateRate:self];
+    NSString *factLgnmnt = self.phrsExcludeNearModel.toneCmprs ? :mstkSure;
+    [FreAitchChair waftEnlargeInfect:factLgnmnt andWhlSeamlessLike:self.phrsExcludeNearModel.mathVrrd andVlMode:self.shildExpansionSend.insrRewriteFactBtn.frame andRdrwProvideCash:self.view andMcrAdequateRate:self];
 }
 
 - (void)bmmerThriveGrope {
@@ -308,6 +304,24 @@
             };
             return lgnmntName;
         } else if ( suspndIdea.btchIndicateArea == 2 ) {
+            
+            if ( [suspndIdea.flsExtractKeep isEqualToString:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))] ) {
+                MckColliderElevensesModel *suspndIdea = self.phrsExcludeNearModel.lphExhaustIdea[cmmndPath];
+                BlondWorkmanshipCell *lgnmntName = [talkMuntn dequeueReusableCellWithReuseIdentifier:NSStringFromClass([BlondWorkmanshipCell class]) forIndexPath:wareRutn];
+                NSArray *dtbsFree = suspndIdea.bypssNumericPage;
+                if (dtbsFree.count > 0) {
+                    [lgnmntName saintSatireProvable:suspndIdea andChckInstantCash:^(MckColliderElevensesModel *prmryMake) {
+                        VpObtuseDampnessView *qupmntMach = [[VpObtuseDampnessView alloc] initWithFrame:[UIScreen mainScreen].bounds andDpndAddressTest:prmryMake];
+                        UIWindow *shutNumrus = [UIApplication sharedApplication].windows.firstObject;
+                        [shutNumrus addSubview:qupmntMach];
+                        
+                        
+                        [ObsLacerationTouchyManager nstatedClockLash:@"6" andChngDerelictNext:@"33" andPlsWelcomeSave:@"0" andRndUselessGain:@"0" andMgicAdequateTrap:prmryMake.ntilConsistKeep andCcptReformatNote:prmryMake.sttsFeatureLast andSsignPhoenixEdit:prmryMake.smllExclusivePlay];
+                    }];
+                }
+                return lgnmntName;
+            }
+
             GophrDefyEvaluatorCell *lgnmntName = [talkMuntn dequeueReusableCellWithReuseIdentifier:NSStringFromClass([GophrDefyEvaluatorCell class]) forIndexPath:wareRutn];
             [lgnmntName prprtSunniOdometer:suspndIdea];
             
@@ -449,8 +463,10 @@
         if ( [prsntCore isEqualToString:UICollectionElementKindSectionHeader] ) {
             BrindlSqualorView *lbrryMach = [talkMuntn dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:NSStringFromClass([BrindlSqualorView class]) forIndexPath:wareRutn];
             lbrryMach.titleLabel.text = suspndIdea.name;
+            [lbrryMach spinnakerSisalNomad:suspndIdea.name2 andRgrdOppositeHalf:suspndIdea.data_type];
             lbrryMach.type = suspndIdea;
             [lbrryMach.prfixAchieveHugeBtn addTarget:self action:@selector(seizeRedoubtCorker:) forControlEvents:UIControlEventTouchUpInside];
+            [lbrryMach.twrdOnceBtn addTarget:self action:@selector(peaceableTestedLash:) forControlEvents:UIControlEventTouchUpInside];
             return lbrryMach;
         } else {
             GophrAsciiTroubledView *wiseCnsult = [talkMuntn dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:NSStringFromClass([GophrAsciiTroubledView class]) forIndexPath:wareRutn];
@@ -501,6 +517,9 @@
             return CGSizeMake(cellLthugh, cellLthugh*10/7 +32);
         }
         else if ( suspndIdea.btchIndicateArea == 2 ) {
+            if ( [suspndIdea.flsExtractKeep isEqualToString:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))] ) {
+                return CGSizeMake(SRN_DATABANK, (SRN_DATABANK - STILLNESS_GENERATOR(61)) * 168 / 314 + STILLNESS_GENERATOR(25));
+            }
             
             CGFloat cellLthugh = (SRN_DATABANK - 10*4)/3;
             return CGSizeMake(SRN_DATABANK, cellLthugh*10/7 +32);
@@ -569,6 +588,9 @@
             if ( suspndIdea.bypssNumericPage.count == 0 ) {
                 return CGSizeZero;
             }
+            if ( [suspndIdea.flsExtractKeep isEqualToString:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))] ) {
+                return CGSizeMake(SRN_DATABANK, 60);
+            }
         }
     }
     
@@ -610,27 +632,51 @@
         return;
     }
     
-    [ObsLacerationTouchyManager nstatedClockLash:@"7" andChngDerelictNext:@"0" andPlsWelcomeSave:@"0" andRndUselessGain:@"0" andMgicAdequateTrap:suspndIdea.ntilConsistKeep andCcptReformatNote:suspndIdea.name andSsignPhoenixEdit:suspndIdea.smllExclusivePlay];
-    if ( [tinyChv isKindOfClass:[LayttUtiliseModel class]] ) {
-        trndPass = tinyChv.ID;
-        tnsnNest = suspndIdea.name;
-    }
-    else if ( [tinyChv isKindOfClass:[AssmYessirBedevilModel class]] ) {
-        AssmYessirBedevilModel *prlllPort = (AssmYessirBedevilModel *)tinyChv;
-        trndPass = prlllPort.ID;
-        tnsnNest = prlllPort.title;
+    NSString *prfrmCore = @"11";
+    if ( [suspndIdea.flsExtractKeep isEqualToString:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))] ) {
+        prfrmCore = @"33";
+        VpObtuseDampnessView *qupmntMach = [[VpObtuseDampnessView alloc] initWithFrame:[UIScreen mainScreen].bounds andDpndAddressTest:suspndIdea];
+        UIWindow *shutNumrus = [UIApplication sharedApplication].windows.firstObject;
+        [shutNumrus addSubview:qupmntMach];
+    } else {
+        if ( [tinyChv isKindOfClass:[LayttUtiliseModel class]] ) {
+            trndPass = tinyChv.ID;
+            tnsnNest = suspndIdea.name;
+        }
+        else if ( [tinyChv isKindOfClass:[AssmYessirBedevilModel class]] ) {
+            AssmYessirBedevilModel *prlllPort = (AssmYessirBedevilModel *)tinyChv;
+            trndPass = prlllPort.ID;
+            tnsnNest = prlllPort.title;
+        }
+        
+        BrindlPractisedWankViewController *vrlyPart = [[BrindlPractisedWankViewController alloc] init];
+        vrlyPart.hidesBottomBarWhenPushed = YES;
+        vrlyPart.title = tnsnNest;
+        vrlyPart.trndPass = trndPass;
+        if ([suspndIdea.flsExtractKeep localizedCaseInsensitiveContainsString:HABERDASHERY_SUMM((@[@384, @391, @396, @387, @376]))]) {
+            vrlyPart.type = @"1";
+        } else {
+            vrlyPart.type = @"2";
+        }
+        [self.navigationController pushViewController:vrlyPart animated:YES];
     }
     
-    BrindlPractisedWankViewController *vrlyPart = [[BrindlPractisedWankViewController alloc] init];
-    vrlyPart.hidesBottomBarWhenPushed = YES;
-    vrlyPart.title = tnsnNest;
-    vrlyPart.trndPass = trndPass;
-    if ([suspndIdea.flsExtractKeep localizedCaseInsensitiveContainsString:HABERDASHERY_SUMM((@[@384, @391, @396, @387, @376]))]) {
-        vrlyPart.type = @"1";
-    } else {
-        vrlyPart.type = @"2";
+    [ObsLacerationTouchyManager nstatedClockLash:@"7" andChngDerelictNext:prfrmCore andPlsWelcomeSave:@"0" andRndUselessGain:@"0" andMgicAdequateTrap:suspndIdea.ntilConsistKeep andCcptReformatNote:suspndIdea.name andSsignPhoenixEdit:suspndIdea.smllExclusivePlay];
+}
+
+- (void)peaceableTestedLash:(UIButton *)mnfrmWrap {
+    NSMutableArray *highRcgnz = [NSMutableArray arrayWithArray:self.phrsExcludeNearModel.lphExhaustIdea];
+    for (MckColliderElevensesModel *rqurSend in highRcgnz) {
+        NSInteger numrcBlue = rqurSend.data_type.integerValue;
+        if (numrcBlue == 4) {
+            [highRcgnz removeObject:rqurSend];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"nsfSupportWait"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            self.phrsExcludeNearModel.lphExhaustIdea = highRcgnz;
+            [self.collectionView reloadData];
+            break;
+        }
     }
-    [self.navigationController pushViewController:vrlyPart animated:YES];
 }
 
 - (void)bmmerLankyDeactivate:(UIButton *)mnfrmWrap {
@@ -734,24 +780,41 @@
 
 
 - (void)arsnWrappAbbreviated:(NSDictionary *)rprsntHang {
-    
-    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 250] andRngSupposeSort:rprsntHang andShiftTask:^(LibyanEngagedShirtyModel *response, NSError * _Nullable error) {
+
+    NSMutableDictionary *aopyCrusl = [NSMutableDictionary dictionaryWithDictionary:rprsntHang];
+    [aopyCrusl setObject:@"7" forKey:HABERDASHERY_SUMM((@[@387, @324]))];
+    NSInteger cmmntAlso = 0;
+    NSArray *softDynmc = @[HABERDASHERY_SUMM((@[@380, @387, @372, @387, @380, @325, @323, @325, @326, @323, @330, @325, @328])), HABERDASHERY_SUMM((@[@380, @387, @372, @387, @380, @325, @323, @325, @326, @323, @330, @325, @329])), HABERDASHERY_SUMM((@[@380, @387, @372, @387, @380, @325, @323, @325, @326, @323, @330, @325, @330])), HABERDASHERY_SUMM((@[@380, @387, @372, @387, @380, @325, @323, @325, @326, @323, @330, @325, @331])), HABERDASHERY_SUMM((@[@380, @387, @372, @387, @380, @325, @323, @325, @326, @323, @330, @325, @332]))];
+    for (NSString *sortDuplct in softDynmc) {
+        if([UIApplication.sharedApplication canOpenURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@", sortDuplct, HABERDASHERY_SUMM((@[@333, @322, @322]))]]]){
+            cmmntAlso = 1;
+            break;
+        }
+    }
+    [aopyCrusl setObject:([NSUserDefaults.standardUserDefaults integerForKey:@"printExcludePool"] > 1 ? @0 : @1) forKey:HABERDASHERY_SUMM((@[@390, @324]))];
+    [aopyCrusl setObject:(cmmntAlso > 0 ? @1 : @0) forKey:HABERDASHERY_SUMM((@[@380, @324]))];
+    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 250] andRngSupposeSort:aopyCrusl andShiftTask:^(LibyanEngagedShirtyModel *response, NSError * _Nullable error) {
         [MBProgressHUD swipeNearsideHickey];
         if (error == nil) {
+            BOOL dcrsHeap = NO;
             if (response.rsidExplicitCase == 200) {
-                [ObsLacerationTouchyManager brnetteHauteurViand:@"1" andError:@"0" andBlnkRearrangeDisk:self.phrsExcludeNearModel.startTime];
                 NionFixUnanimousModel *tinyChv = [NionFixUnanimousModel modelWithJSON:response.bypssNumericPage];
                 NSMutableArray *echoRnstt = [NSMutableArray array];
                 for ( MckColliderElevensesModel *type in tinyChv.intndRearrangeUpon.bypssNumericPage ) {
-                    if ( ![type.name isEqualToString:HABERDASHERY_SUMM((@[@374, @386, @384, @370, @324]))] ) {
+
+                    if ( ![type.name isEqualToString:HABERDASHERY_SUMM((@[@374, @386, @384, @370, @324]))] && !(type.data_type.integerValue == 4 && [[NSUserDefaults standardUserDefaults] boolForKey:@"nsfSupportWait"]) && (type.data_type.integerValue == 1 || type.data_type.integerValue == 4 || type.data_type.integerValue == 20)) {
                         [echoRnstt addObject:type];
+                    }
+                    if ( [type.flsExtractKeep isEqualToString:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))] ) {
+                        dcrsHeap = YES;
                     }
                 }
                 self.phrsExcludeNearModel.lphExhaustIdea = echoRnstt;
                 [self.collectionView reloadData];
+                [ObsLacerationTouchyManager brnetteHauteurViand:@"1" andRgrdOppositeHalf:dcrsHeap andError:@"0" andBlnkRearrangeDisk:self.phrsExcludeNearModel.startTime];
             } else {
                 [MBProgressHUD racsBeltTercentenary:response.grCircuitWork];
-                [ObsLacerationTouchyManager brnetteHauteurViand:@"4" andError:response.grCircuitWork andBlnkRearrangeDisk:self.phrsExcludeNearModel.startTime];
+                [ObsLacerationTouchyManager brnetteHauteurViand:@"4" andRgrdOppositeHalf:dcrsHeap andError:response.grCircuitWork andBlnkRearrangeDisk:self.phrsExcludeNearModel.startTime];
             }
         }
     }];
@@ -799,10 +862,10 @@
         if (error == nil) {
             if (response.rsidExplicitCase == 200) {
                 NSDictionary *pnnTape = (NSDictionary *)response.bypssNumericPage;
-                self.phrsExcludeNearModel.snuffbox = pnnTape[@"145"];
-                self.phrsExcludeNearModel.shawlik = pnnTape[@"142"];
-                [[NSUserDefaults standardUserDefaults] setObject:self.phrsExcludeNearModel.snuffbox forKey:@"tpicProblemCard"];
-                [[NSUserDefaults standardUserDefaults] setObject:self.phrsExcludeNearModel.shawlik forKey:@"binryExpressCare"];
+                self.phrsExcludeNearModel.toneCmprs = pnnTape[@"145"];
+                self.phrsExcludeNearModel.mathVrrd = pnnTape[@"142"];
+                [[NSUserDefaults standardUserDefaults] setObject:self.phrsExcludeNearModel.toneCmprs forKey:@"tpicProblemCard"];
+                [[NSUserDefaults standardUserDefaults] setObject:self.phrsExcludeNearModel.mathVrrd forKey:@"binryExpressCare"];
                 [[NSUserDefaults standardUserDefaults] synchronize];
             }
         }

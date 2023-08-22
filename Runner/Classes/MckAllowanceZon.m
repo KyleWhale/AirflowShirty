@@ -52,14 +52,14 @@
 - (void)tableView:(UITableView *)suchMxmum didSelectRowAtIndexPath:(NSIndexPath *)wareRutn {
     
     self.ignrTranslateWord = YES;
-    self.pairPrgrss = self.xcptNetworkLastArray[wareRutn.row];
+    self.searchString = self.xcptNetworkLastArray[wareRutn.row];
     if (self.vidPredictTrueBlock) {
-        self.vidPredictTrueBlock(self.pairPrgrss, 0, wareRutn.row);
+        self.vidPredictTrueBlock(self.searchString, 0, wareRutn.row);
     }
 }
 
-- (void)setPairPrgrss:(NSString *)pairPrgrss {
-    _pairPrgrss = pairPrgrss;
+- (void)setSearchString:(NSString *)pairPrgrss {
+    _searchString = pairPrgrss;
     self.hppnEquipmentSameLab.text = [NSString stringWithFormat:@"%@ “%@”", HABERDASHERY_SUMM((@[@358, @376, @372, @389, @374, @379])), pairPrgrss];
     
     if ( self.ignrTranslateWord ) {
@@ -92,7 +92,7 @@
             if ( model.rsidExplicitCase == 200 ) {
                 self.clsToneModel = [DstrctiblObtuseZonModel modelWithJSON:model.bypssNumericPage];
                 if ( self.ignrTranslateWord ) {
-                    if ([self.pairPrgrss stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length) {
+                    if ([self.searchString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length) {
                         [self sacyScullerTested];
                     }
                     if ( self.ppndSupposePushBlock ) {
@@ -111,10 +111,10 @@
     
     NSArray *vrllCord = [ObsDefyIntentManager ughLankyProspectus];
     NSMutableArray *echoRnstt = [NSMutableArray arrayWithArray:vrllCord];
-    if ( [echoRnstt containsObject:self.pairPrgrss] ) {
-        [echoRnstt removeObject:self.pairPrgrss];
+    if ( [echoRnstt containsObject:self.searchString] ) {
+        [echoRnstt removeObject:self.searchString];
     }
-    [echoRnstt insertObject:self.pairPrgrss atIndex:0];
+    [echoRnstt insertObject:self.searchString atIndex:0];
     if( echoRnstt.count > 10 ) {
         [echoRnstt removeLastObject];
     }

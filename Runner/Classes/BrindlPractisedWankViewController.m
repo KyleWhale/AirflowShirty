@@ -204,7 +204,7 @@
     } else {
         zoomBckwrd = wareRutn.row;
     }
-
+    
     BlondAllowanceVainlyModel *tinyChv = nil;
     if ([self.lphExhaustIdea count] > zoomBckwrd) {
         tinyChv = self.lphExhaustIdea[zoomBckwrd];

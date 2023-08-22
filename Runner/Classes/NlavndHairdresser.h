@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<rnmProgramCoreDelegate> delegate;
 @property (nonatomic, assign) NSUInteger stffChannelMenu;
 @property (nonatomic, assign) CGFloat rgrdAlthoughCord;
-@property (nonatomic, assign) CGFloat hairdpace;
+@property (nonatomic, assign) CGFloat brkPrepareShip;
 @property (nonatomic, assign) UIEdgeInsets insets;
 
 @property (nonatomic, strong) NSMutableArray *hightRebuildPast;

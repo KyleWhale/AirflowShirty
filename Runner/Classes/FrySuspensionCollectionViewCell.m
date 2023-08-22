@@ -30,14 +30,14 @@
    .wLineSpacingSet(-easyVrll*0.5)
    .wSectionInsetSet(UIEdgeInsetsMake(0, SRN_DATABANK * 0.25, 0, SRN_DATABANK * 0.25))
    .wMyCellClassNameSet(NSStringFromClass(UICollectionViewCell.class))
-   .wEventCenterClickSet(^(id anyscID,NSInteger index,BOOL isSeiter,UICollectionViewCell* lgnmntName){
-       VpSuppressantMoroseModel *dataBtwn = anyscID;
+   .wEventCenterClickSet(^(id fifthTraverseRate,NSInteger index,BOOL rcllComposeMath,UICollectionViewCell* lgnmntName){
+       VpSuppressantMoroseModel *dataBtwn = fifthTraverseRate;
        if (self.fncyParallelVaryBlock) {
            BOOL numrusSuch = (dataBtwn.frntCarriageFine.intValue == 7) ?YES :NO;
            self.fncyParallelVaryBlock(dataBtwn, numrusSuch);
        }
    })
-   .wMyCellSet(^UICollectionViewCell *(NSIndexPath *indexPath, UICollectionView *collectionView, id model, UIImageView *view, NSArray *array) {
+   .wMyCellSet(^UICollectionViewCell *(NSIndexPath *indexPath, UICollectionView *collectionView, id model, UIImageView *view, NSArray *lphExhaustIdea) {
        UICollectionViewCell *lgnmntName = [GodhadFormerImpactedManager bedlamPictogramSans:collectionView cellForItemAtIndexPath:indexPath model:model];
        return lgnmntName;
    })

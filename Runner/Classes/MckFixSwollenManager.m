@@ -24,7 +24,7 @@
     [rplcBack registerClass:[GophrDefyEvaluatorCell class] forCellWithReuseIdentifier:NSStringFromClass([GophrDefyEvaluatorCell class])];
     [rplcBack registerClass:[AirflowWankView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:NSStringFromClass([AirflowWankView class])];
     [rplcBack registerClass:[SothastrnWankCell class] forCellWithReuseIdentifier:NSStringFromClass([SothastrnWankCell class])];
-
+    [rplcBack registerClass:[BlondWorkmanshipCell class] forCellWithReuseIdentifier:NSStringFromClass([BlondWorkmanshipCell class])];
     return rplcBack;
 }
 
@@ -32,7 +32,7 @@
 + (void)tambrLastMelancholia:(NlavndHairdresser *)edgeNdustry andFlshRebuildJust:(id)ssctBell
 {
     edgeNdustry.delegate = ssctBell;
-    edgeNdustry.hairdpace = 15;
+    edgeNdustry.brkPrepareShip = 15;
     edgeNdustry.stffChannelMenu = 2;
     edgeNdustry.rgrdAlthoughCord = 15;
     edgeNdustry.insets = UIEdgeInsetsMake(0, 10, 0, 10);

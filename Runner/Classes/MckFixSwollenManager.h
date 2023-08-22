@@ -15,6 +15,7 @@
 #import "GophrDefyEvaluatorCell.h"
 #import "AirflowWankView.h"
 #import "SothastrnWankCell.h"
+#import "BlondWorkmanshipCell.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MckAllowanceZon : OrganisationalCraterViewController
 
-@property (nonatomic, strong) NSString     * pairPrgrss;
+@property (nonatomic, strong) NSString     * searchString;
 @property (nonatomic, assign) BOOL           ignrTranslateWord;
 
 @property (nonatomic, copy) bypssSecondaryPlusBlock     ppndSupposePushBlock;

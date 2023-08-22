@@ -33,6 +33,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString      * chrtSqueezeWise;
 @property (nonatomic, strong) NSString      * clsReplicateCrop;
 @property (nonatomic, strong) NSString      * wrngBackspaceArea;
+
+@property (nonatomic, copy) NSString *img;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *channelType;
+
 @end
 
 NS_ASSUME_NONNULL_END

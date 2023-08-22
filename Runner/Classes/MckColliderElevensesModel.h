@@ -36,6 +36,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString      * clsReplicateCrop;
 @property (nonatomic, strong) NSString      * wrngBackspaceArea;
 
+@property (nonatomic,copy) NSString *name2;
+@property (nonatomic,copy) NSString *s3;
+@property (nonatomic,copy) NSString *s3img;
+@property (nonatomic,copy) NSString *hppnComplexWork;
+@property (nonatomic,copy) NSString *cmbPlatformMenu;
+@property (nonatomic,copy) NSString *l1;
+@property (nonatomic,copy) NSString *icon1;
+@property (nonatomic,copy) NSString *text1;
+@property (nonatomic,copy) NSString *text2;
+@property (nonatomic,copy) NSString *k2;
+
 @end
 
 NS_ASSUME_NONNULL_END

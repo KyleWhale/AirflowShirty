@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016C367A2A94A77B00B33440 /* BlondWorkmanshipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36732A94A77B00B33440 /* BlondWorkmanshipCell.m */; };
+		016C367B2A94A77B00B33440 /* NionStairliftIntentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */; };
+		016C367C2A94A77B00B33440 /* VpObtuseDampnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36772A94A77B00B33440 /* VpObtuseDampnessView.m */; };
+		016C367D2A94A77B00B33440 /* RadicatWiredMoroseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36792A94A77B00B33440 /* RadicatWiredMoroseCell.m */; };
 		01D4D7632A7CF76700EFB9D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */; };
 		01D4D7662A7CF76700EFB9D0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7652A7CF76700EFB9D0 /* SceneDelegate.m */; };
 		01D4D7692A7CF76700EFB9D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7682A7CF76700EFB9D0 /* ViewController.m */; };
@@ -86,6 +90,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		016C36722A94A77B00B33440 /* NionStairliftIntentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionStairliftIntentModel.h; sourceTree = "<group>"; };
+		016C36732A94A77B00B33440 /* BlondWorkmanshipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlondWorkmanshipCell.m; sourceTree = "<group>"; };
+		016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionStairliftIntentModel.m; sourceTree = "<group>"; };
+		016C36752A94A77B00B33440 /* BlondWorkmanshipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlondWorkmanshipCell.h; sourceTree = "<group>"; };
+		016C36762A94A77B00B33440 /* RadicatWiredMoroseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadicatWiredMoroseCell.h; sourceTree = "<group>"; };
+		016C36772A94A77B00B33440 /* VpObtuseDampnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpObtuseDampnessView.m; sourceTree = "<group>"; };
+		016C36782A94A77B00B33440 /* VpObtuseDampnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpObtuseDampnessView.h; sourceTree = "<group>"; };
+		016C36792A94A77B00B33440 /* RadicatWiredMoroseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadicatWiredMoroseCell.m; sourceTree = "<group>"; };
 		01D4D75E2A7CF76700EFB9D0 /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D4D7612A7CF76700EFB9D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -311,6 +323,8 @@
 				01D4D7CB2A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m */,
 				01D4D81A2A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.h */,
 				01D4D7D32A7CF90600EFB9D0 /* BlondAllowanceVainlyModel.m */,
+				016C36752A94A77B00B33440 /* BlondWorkmanshipCell.h */,
+				016C36732A94A77B00B33440 /* BlondWorkmanshipCell.m */,
 				01D4D82E2A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.h */,
 				01D4D7E72A7CF90600EFB9D0 /* BrindlDeflateSubtendManager.m */,
 				01D4D8232A7CF90600EFB9D0 /* BrindlHolmiumAbaseCell.h */,
@@ -383,6 +397,8 @@
 				01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */,
 				01D4D7CC2A7CF90600EFB9D0 /* NionFormerObsidian.h */,
 				01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */,
+				016C36722A94A77B00B33440 /* NionStairliftIntentModel.h */,
+				016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */,
 				01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */,
 				01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */,
 				01D4D81F2A7CF90600EFB9D0 /* NlavndHairdresser.h */,
@@ -401,6 +417,8 @@
 				01D4D80F2A7CF90600EFB9D0 /* ObsWilcoUnderfedView.m */,
 				01D4D7D82A7CF90600EFB9D0 /* RadicatSlatyReceipt.h */,
 				01D4D8172A7CF90600EFB9D0 /* RadicatSlatyReceipt.m */,
+				016C36762A94A77B00B33440 /* RadicatWiredMoroseCell.h */,
+				016C36792A94A77B00B33440 /* RadicatWiredMoroseCell.m */,
 				01D4D8252A7CF90600EFB9D0 /* SothastrnHegemonic.h */,
 				01D4D7EF2A7CF90600EFB9D0 /* SothastrnHegemonic.m */,
 				01D4D7EA2A7CF90600EFB9D0 /* SothastrnWaneManager.h */,
@@ -413,6 +431,8 @@
 				01D4D7EB2A7CF90600EFB9D0 /* VpHideawayNeglect.m */,
 				01D4D7BF2A7CF90600EFB9D0 /* VpNuptialsEvaluator.h */,
 				01D4D7F52A7CF90600EFB9D0 /* VpNuptialsEvaluator.m */,
+				016C36782A94A77B00B33440 /* VpObtuseDampnessView.h */,
+				016C36772A94A77B00B33440 /* VpObtuseDampnessView.m */,
 				01D4D7F72A7CF90600EFB9D0 /* VpPretenceThesaurusView.h */,
 				01D4D7BD2A7CF90600EFB9D0 /* VpPretenceThesaurusView.m */,
 				01D4D82C2A7CF90600EFB9D0 /* VpSlatyProactiveView.h */,
@@ -598,7 +618,9 @@
 				01D4D8742A7CF90600EFB9D0 /* GodhadFormerImpactedManager.m in Sources */,
 				01D4D8722A7CF90600EFB9D0 /* GophrDubious.m in Sources */,
 				01D4D8532A7CF90600EFB9D0 /* GophrDefyEvaluatorCell.m in Sources */,
+				016C367C2A94A77B00B33440 /* VpObtuseDampnessView.m in Sources */,
 				01D4D8752A7CF90600EFB9D0 /* SothastrnWaneManager.m in Sources */,
+				016C367A2A94A77B00B33440 /* BlondWorkmanshipCell.m in Sources */,
 				01D4D83C2A7CF90600EFB9D0 /* MckYessirAboardModel.m in Sources */,
 				01D4D8782A7CF90600EFB9D0 /* AssmAsciiSaintedViewController.m in Sources */,
 				01D4D8492A7CF90600EFB9D0 /* BasqVisuallyEnrollManager.m in Sources */,
@@ -609,6 +631,8 @@
 				01D4D8652A7CF90600EFB9D0 /* LayttGaietyUnnerveBar.m in Sources */,
 				01D4D87B2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m in Sources */,
 				01D4D8522A7CF90600EFB9D0 /* LayttUtiliseModel.m in Sources */,
+				016C367D2A94A77B00B33440 /* RadicatWiredMoroseCell.m in Sources */,
+				016C367B2A94A77B00B33440 /* NionStairliftIntentModel.m in Sources */,
 				01D4D8602A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m in Sources */,
 				01D4D8392A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m in Sources */,
 				01D4D8562A7CF90600EFB9D0 /* VpHideawayNeglect.m in Sources */,

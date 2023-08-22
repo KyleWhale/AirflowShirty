@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray *cmmSize;
 @property (nonatomic, assign) BOOL rchVary;
 @property (nonatomic, assign) NSInteger dsignDuplicateLike;
-@property (nonatomic, strong) NSString *snuffbox;
-@property (nonatomic, strong) NSString *shawlik;
+@property (nonatomic, strong) NSString *toneCmprs;
+@property (nonatomic, strong) NSString *mathVrrd;
 @property (nonatomic, assign) NSInteger rndNavigateScan;
 
 @end

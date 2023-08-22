@@ -95,7 +95,7 @@
     wantDvlp.brshStructureEasyBlock = ^(NSString *word, NSInteger type, NSInteger index) {
         MckAllowanceZon *lookRpnt = spllAutoindexStep.childViewControllers[1];
         lookRpnt.ignrTranslateWord = YES;
-        lookRpnt.pairPrgrss = word;
+        lookRpnt.searchString = word;
         spllAutoindexStep.rightWelcomeMakeView.searchString = word;
         if (type == 1) {
             spllAutoindexStep.prtMind = 5;
@@ -156,7 +156,7 @@
         [self.scrollView setContentOffset:CGPointMake(SRN_DATABANK, 0) animated:NO];
         MckAllowanceZon *lookRpnt = self.childViewControllers[1];
         lookRpnt.ignrTranslateWord = NO;
-        lookRpnt.pairPrgrss = prmnntBook.searchString;
+        lookRpnt.searchString = prmnntBook.searchString;
     } else {
         [self.scrollView setContentOffset:CGPointMake(0, 0) animated:NO];
         
@@ -226,7 +226,7 @@
 - (BOOL)nexpldedInsanePrior:(VpSlatyProactiveView *)prmnntBook {
     MckAllowanceZon *lookRpnt = self.childViewControllers[1];
     lookRpnt.ignrTranslateWord = YES;
-    lookRpnt.pairPrgrss = prmnntBook.searchString;
+    lookRpnt.searchString = prmnntBook.searchString;
     self.prtMind = 1;
     [self kindTesterSunny:@"1" andBildLong:0];
     return YES;

@@ -38,8 +38,7 @@
     [ObsLacerationTouchyManager peafwlNosegayRedoubt:rprsntHang];
 }
 
-+ (void)brnetteHauteurViand:(NSString *)status andError:(NSString *)lessRcursv andBlnkRearrangeDisk:(NSDate *)keepCntct
-{
++ (void)brnetteHauteurViand:(NSString *)status andRgrdOppositeHalf:(BOOL)prtMind andError:(NSString *)lessRcursv andBlnkRearrangeDisk:(NSDate *)keepCntct {
     NSMutableDictionary *rprsntHang = [NSMutableDictionary dictionary];
     [rprsntHang setObject:status forKey:@"47"];
     [rprsntHang setObject:(lessRcursv ?: @"success") forKey:@"79"];
@@ -52,6 +51,7 @@
     [rprsntHang setObject:nestPurchs forKey:@"188"];
     [rprsntHang setObject:HABERDASHERY_SUMM((@[@345, @376, @372, @391, @392, @389, @376, @375])) forKey:@"87"];
     [rprsntHang setObject:@"2" forKey:@"232"];
+    [rprsntHang setObject:(prtMind ? @1 : @0) forKey:HABERDASHERY_SUMM((@[@380, @387, @391, @393, @370, @378, @392, @380, @375, @376]))];
     [rprsntHang setObject:@"63" forKey:@"76"];
     [ObsLacerationTouchyManager peafwlNosegayRedoubt:rprsntHang];
 }

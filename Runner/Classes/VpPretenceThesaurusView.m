@@ -85,7 +85,7 @@
     UILabel *prsntCell = [[UILabel alloc] init];
     prsntCell.text = self.nghInterruptPair;
     prsntCell.numberOfLines = 0;
-    prsntCell.textColor = [UIColor colorWithHexString:@"#878989"];
+    prsntCell.textColor = [UIColor colorWithHexString:@"#86888a"];
     prsntCell.font = [UIFont systemFontOfSize:14];
     prsntCell.hidden = self.nghInterruptPair.length == 0;
     [nfntPack addSubview:prsntCell];
@@ -119,7 +119,7 @@
     UILabel *clssfyBlue = [[UILabel alloc] init];
     clssfyBlue.numberOfLines = 0;
     clssfyBlue.text = self.withinRectangleView;
-    clssfyBlue.textColor = [UIColor colorWithHexString:@"#878989"];
+    clssfyBlue.textColor = [UIColor colorWithHexString:@"#86888a"];
     clssfyBlue.font = [UIFont systemFontOfSize:14];
     clssfyBlue.hidden = (self.type == 2 && [[self.markCnvrt objectForKey:@"243"] integerValue] == 1) ? (self.phrsMainframeOnce.length > 0 ? YES : NO) : (self.phrsMainframeOnce.length == 0 ? YES : NO);
     [nfntPack addSubview:clssfyBlue];

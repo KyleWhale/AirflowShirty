@@ -119,12 +119,12 @@
                 lbrryMach.titleLabel.text = OVERCONFIDENT_CORPORATE(260);
                 [lbrryMach.prfixAchieveHugeBtn addTarget:self action:@selector(gadgetQuickenLass:) forControlEvents:UIControlEventTouchUpInside];
             } else {
-                lbrryMach.titleLabel.text = HABERDASHERY_SUMM((@[@359, @386, @387, @307, @358, @376, @372, @389, @374, @379]));
+                lbrryMach.titleLabel.text = OVERCONFIDENT_CORPORATE(386);
                 lbrryMach.prfixAchieveHugeBtn.hidden = YES;
             }
             
         } else {
-            lbrryMach.titleLabel.text = HABERDASHERY_SUMM((@[@359, @386, @387, @307, @358, @376, @372, @389, @374, @379]));
+            lbrryMach.titleLabel.text = OVERCONFIDENT_CORPORATE(386);
             lbrryMach.prfixAchieveHugeBtn.hidden = YES;
         }
         

@@ -86,7 +86,7 @@
         
         CGFloat y = evenUnknwn.frame.origin.y;
         if(drumCntnu > 0 ) {
-            y = drumCntnu + _hairdpace;
+            y = drumCntnu + _brkPrepareShip;
         }
         evenUnknwn.frame = CGRectMake(x, y, dvlpZero, cncptWith);
 
