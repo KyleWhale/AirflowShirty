@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		016C367A2A94A77B00B33440 /* BlondWorkmanshipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36732A94A77B00B33440 /* BlondWorkmanshipCell.m */; };
-		016C367B2A94A77B00B33440 /* NionStairliftIntentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */; };
 		016C367C2A94A77B00B33440 /* VpObtuseDampnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36772A94A77B00B33440 /* VpObtuseDampnessView.m */; };
 		016C367D2A94A77B00B33440 /* RadicatWiredMoroseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C36792A94A77B00B33440 /* RadicatWiredMoroseCell.m */; };
 		01D4D7632A7CF76700EFB9D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4D7622A7CF76700EFB9D0 /* AppDelegate.m */; };
@@ -90,9 +89,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		016C36722A94A77B00B33440 /* NionStairliftIntentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionStairliftIntentModel.h; sourceTree = "<group>"; };
 		016C36732A94A77B00B33440 /* BlondWorkmanshipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlondWorkmanshipCell.m; sourceTree = "<group>"; };
-		016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionStairliftIntentModel.m; sourceTree = "<group>"; };
 		016C36752A94A77B00B33440 /* BlondWorkmanshipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlondWorkmanshipCell.h; sourceTree = "<group>"; };
 		016C36762A94A77B00B33440 /* RadicatWiredMoroseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadicatWiredMoroseCell.h; sourceTree = "<group>"; };
 		016C36772A94A77B00B33440 /* VpObtuseDampnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpObtuseDampnessView.m; sourceTree = "<group>"; };
@@ -397,8 +394,6 @@
 				01D4D80D2A7CF90600EFB9D0 /* NionFixUnanimousModel.m */,
 				01D4D7CC2A7CF90600EFB9D0 /* NionFormerObsidian.h */,
 				01D4D80A2A7CF90600EFB9D0 /* NionFormerObsidian.m */,
-				016C36722A94A77B00B33440 /* NionStairliftIntentModel.h */,
-				016C36742A94A77B00B33440 /* NionStairliftIntentModel.m */,
 				01D4D7DD2A7CF90600EFB9D0 /* NlavndDeflateManager.h */,
 				01D4D8372A7CF90600EFB9D0 /* NlavndDeflateManager.m */,
 				01D4D81F2A7CF90600EFB9D0 /* NlavndHairdresser.h */,
@@ -632,7 +627,6 @@
 				01D4D87B2A7CF90600EFB9D0 /* NlavndPractisedPlunkModel.m in Sources */,
 				01D4D8522A7CF90600EFB9D0 /* LayttUtiliseModel.m in Sources */,
 				016C367D2A94A77B00B33440 /* RadicatWiredMoroseCell.m in Sources */,
-				016C367B2A94A77B00B33440 /* NionStairliftIntentModel.m in Sources */,
 				01D4D8602A7CF90600EFB9D0 /* FryGeothermalUnnerveModel.m in Sources */,
 				01D4D8392A7CF90600EFB9D0 /* FreSnuffboxMeddlerView.m in Sources */,
 				01D4D8562A7CF90600EFB9D0 /* VpHideawayNeglect.m in Sources */,
